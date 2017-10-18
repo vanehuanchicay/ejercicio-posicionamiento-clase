@@ -1,0 +1,47 @@
+.lista{
+	/*background-color:red;*/
+	border: 2px solid blue;
+	overflow: hidden; /*utilizo esta propiedad para evitar que mi contenedor colapse al utilizar float*/
+}
+
+li{
+	float: left; /*acá dejo mi lista en forma orizontal*/
+	margin: 30px;
+}
+
+.contenedor{
+	/*background:blue;*/
+	overflow: hidden;
+}
+
+h1{
+	text-align: center;/*dejo centrado mi título*/
+}
+
+p{
+	font-size: 20px;/*con font-soze le cambio en tamaño a mi tipografía*/
+}
+
+.imagen1{
+	float: left;/* dejo mi imagen flatando a la derecha*/
+    margin: 0em 2em;
+    border: 2px solid black;
+}
+
+.imagen2{
+	float:right;/* dejo mi imagen flatando a la izquerda para dejar mi texto en medio*/
+    margin: 0em 2em;
+    border: 2px solid black;
+}
+
+.spock{
+  font-size: 40px;
+}
+
+.fa-paw{
+  font-size: 50px;
+}
+
+.fa-hand-spock-o{
+  font-size: 40px;
+}
